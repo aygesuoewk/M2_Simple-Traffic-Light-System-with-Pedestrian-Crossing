@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "3_Implementation\\src\\keypads\\keypads.ino"
+}

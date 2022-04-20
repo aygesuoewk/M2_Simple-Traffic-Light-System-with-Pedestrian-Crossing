@@ -5,7 +5,7 @@
 #include <LiquidCrystal.h>
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(2, 3);
-LiquidCrystal lcd(14, 15, 16, 17, 18, 19);
+LiquidCrystal lcd(16,17,18,19,28,27);
 #define Password_Lenght 7 // Give enough room for six chars + NULL char
 char Data[Password_Lenght]; // 6 is the number of chars it can hold + the null char = 7
 char Master[Password_Lenght] = "999999";
@@ -13,16 +13,16 @@ byte data_count = 0, master_count = 0;
 bool Pass_is_good;
 char customKey;
 const byte ROWS = 4;
-const byte COLS = 4;
+const byte COLS = 3;
 char hexaKeys[ROWS][COLS] = {
-  {'1', '2', '3', 'A'},
-  {'4', '5', '6', 'B'},
-  {'7', '8', '9', 'C'},
-  {'*', '0', '#', 'D'}
+  {'1', '2', '3'},
+  {'4', '5', '6'},
+  {'7', '8', '9'},
+  {'*', '0', '#'}
 };
 
-byte rowPins[ROWS] = {11, 10, 9, 8}; //connect to the row pinouts of the keypad
-byte colPins[COLS] = {7, 6, 5, 4}; //connect to the column pinouts of the keypad
+byte rowPins[ROWS] = {2,3,4,5}; //connect to the row pinouts of the keypad
+byte colPins[COLS] = {12,13,14}; //connect to the column pinouts of the keypad
 Keypad myKeypad = Keypad( makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS);
 
 void setup()
