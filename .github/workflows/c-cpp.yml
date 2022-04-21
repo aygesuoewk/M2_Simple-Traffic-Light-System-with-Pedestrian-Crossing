@@ -1,4 +1,4 @@
-name: Cpp check
+name: Cppcheck
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install
+    - name: get_cppcheck
       run: sudo apt-get install cppcheck
-    - name: analyse
-      run: analysis --enable=all 3_Implementation
+    - name: Code Quality
+      run: make analysis -C 3_Implementation
