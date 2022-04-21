@@ -9,11 +9,11 @@
 * Codiga - Static Analysis
 [![Quality](https://api.codiga.io/project/32846/score/svg)]
 * Codacy- Static Code Analysis
-[![Codacy Badge][![Codacy Badge](https://app.codacy.com/project/badge/Grade/7ec18071c6334044a1937a90115c106e)](https://www.codacy.com/gh/Stephenj071/M2_Traffic-Light-Controller/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephenj071/M2_Traffic-Light-Controller&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7ec18071c6334044a1937a90115c106e)](https://www.codacy.com/gh/Stephenj071/M2_Traffic-Light-Controller/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephenj071/M2_Traffic-Light-Controller&amp;utm_campaign=Badge_Grade)
 * Build on linux
-[![Build CI - Linux][![Build](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/build.yml)
+[![Build CI - Linux](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/build.yml)
 * Analysis
-[![Cppcheck][![Cppcheck](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/c-cpp.yml)
+[![Cppcheck](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M2_Traffic-Light-Controller/actions/workflows/c-cpp.yml)
 
 
 # Hardware
