@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC = src/traffic.c
 
 # All header file paths
-
+INCLUDE = I 
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
