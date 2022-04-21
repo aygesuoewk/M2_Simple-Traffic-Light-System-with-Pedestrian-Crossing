@@ -17,4 +17,3 @@ jobs:
       run: sudo apt-get install cppcheck
     - name: analyse
       run: analysis --enable=all 3_Implementation
-s
