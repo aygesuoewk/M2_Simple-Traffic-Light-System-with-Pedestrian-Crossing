@@ -3,7 +3,7 @@
 ## In Action
 |Not Working|Working|
 |:--:|:--:|
-|!![off](https://user-images.githubusercontent.com/101174057/164452318-03763dda-fe08-4326-87cd-3d833461a57f.png)|!![on](https://user-images.githubusercontent.com/101174057/164452758-7291dbc6-e77e-49dd-aff9-ac9cb234548a.png)|
+|![off](https://user-images.githubusercontent.com/101174057/164452318-03763dda-fe08-4326-87cd-3d833461a57f.png)|![on](https://user-images.githubusercontent.com/101174057/164452758-7291dbc6-e77e-49dd-aff9-ac9cb234548a.png)|
 
 # Badges
 * Codiga - Static Analysis
